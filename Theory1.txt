@@ -1,0 +1,14 @@
+ 1) What is NodeJS?
+ Ans:- NodeJS is a runtime environment for server side and networking application.
+       Node.js is an open source fromework.
+       Node.js can run on cross platfom i.e it can run on windows linux mac etc.
+       Node.js was built on top of Chrome's javaScript runtime, the V8 engine.
+       Node.js application are written in javaScript.
+       Node.js is a lightweight.
+
+
+ 2) Who are using node.js 
+ Yahoo,Netflix, Paypal, Uber, LinledIn , ebay, google, trello, gitHub, Walmart
+
+ 
+
