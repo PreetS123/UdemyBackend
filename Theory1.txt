@@ -40,3 +40,11 @@
      exports                      | A refference to the module.exports
      require()                    | To require modules
 
+ 
+ 5) Difference between Synchronous and Asynchronous Task
+   
+    Synchronous task blocks a process till the previous task completes.
+    Asynchronous task is non-blocking and can start any task.
+
+
+    AJAX--> asynchronous JavaScript xml
