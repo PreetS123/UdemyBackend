@@ -1,4 +1,4 @@
 let myModule=require('./myModule');
 
 
-console.log(myModule);
+console.log("text from myModule : ",myModule.myText);
