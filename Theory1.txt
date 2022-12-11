@@ -64,4 +64,18 @@
     Example:
     fs.readStreams emits an event when the file is opened.
     stream emits an events whenever data is available to be read.
-    
+
+Things to note:
+All objects that emits events are instances of the EventEmitter class.
+
+eventEmitter.on() function allows one or more functions to be attached
+ to named events emitted by the objects.
+
+ event names are camel-cased string but any valid javaScript property 
+ key can be used.
+
+  8) What are callbacks ?
+   Ans:- callbacks are a kind of asynchronous equivalent of a function called when a task completes.
+         callbacks prevents blocking and allows other code to run.
+         
+
