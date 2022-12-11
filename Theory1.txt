@@ -86,4 +86,9 @@ eventEmitter.on() function allows one or more functions to be attached
     e) Send the response body e.g as "hello world" response.end("Hello World\n");
     f) Port where application will run }.listen(8080);
 
+ 10) Modules and Packages
+  Modules---> Modules are node.js libraries.
+  Pacakage--> A pacakage is one or more modules grouped or packaged together.
+  Every Node.js app is a package and should have package.json files.
+
 
