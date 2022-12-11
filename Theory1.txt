@@ -19,3 +19,12 @@
       NPM makes it easy for developers to update, share and reuse code.
       . To check the current version of npm command line is : npm --v.
       . To install current version of npm command line is : npm install npm@latest -g
+
+ Basic command line used 
+  npm i <pacakage name> -g ---> installing package locally or globally.
+  npm ininstall <pacakage> -g ---> uninstall local or global pacakage.
+  npm search <package name>  ---> Search pacakage
+  npm ls -g --> list local or global pacakages.
+  npm update -g --> update local or global packages.
+
+  
