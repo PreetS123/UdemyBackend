@@ -82,5 +82,8 @@ eventEmitter.on() function allows one or more functions to be attached
     a) Import require modules=> var http=require('http');
     b) Create Server => http.createServer(function(request,response){})
     c) Read request and return response.
-    
+    d) Send a response headers : respnse.writeHead(200,{'content-type';"text/plain});
+    e) Send the response body e.g as "hello world" response.end("Hello World\n");
+    f) Port where application will run }.listen(8080);
+
 
