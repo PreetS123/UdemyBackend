@@ -77,5 +77,10 @@ eventEmitter.on() function allows one or more functions to be attached
   8) What are callbacks ?
    Ans:- callbacks are a kind of asynchronous equivalent of a function called when a task completes.
          callbacks prevents blocking and allows other code to run.
-         
+
+ 9) Components of a Node.js application
+    a) Import require modules=> var http=require('http');
+    b) Create Server => http.createServer(function(request,response){})
+    c) Read request and return response.
+    
 
