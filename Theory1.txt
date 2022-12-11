@@ -48,3 +48,20 @@
 
 
     AJAX--> asynchronous JavaScript xml
+
+
+6) What are events?
+  Events are things that happen
+  Examples:
+    . Input field entry
+    . Button Click
+    . Door opening
+    . Opening google chorome
+
+ 7) What are Emitters?
+   Ans:- Emitters are objects that emit events
+    that cause function objects listeners to be called
+    Example:
+    fs.readStreams emits an event when the file is opened.
+    stream emits an events whenever data is available to be read.
+    
