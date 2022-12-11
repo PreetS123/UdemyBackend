@@ -27,4 +27,16 @@
   npm ls -g --> list local or global pacakages.
   npm update -g --> update local or global packages.
 
-  
+
+ 4) What is global objects
+   These are objects that are available in all modules.
+
+     Global Object                | Description
+     Class:Buffer                 | Used to handle binary data.
+     __dirname                    | Directory name of the current module.
+     __filename                   | File name of the current module.
+     clearImmediate(immediateObject)| Cancels an Immediate object.
+     console                      | Prints to console
+     exports                      | A refference to the module.exports
+     require()                    | To require modules
+
