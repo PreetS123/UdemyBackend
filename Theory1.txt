@@ -10,5 +10,12 @@
  2) Who are using node.js 
  Yahoo,Netflix, Paypal, Uber, LinledIn , ebay, google, trello, gitHub, Walmart
 
- 
 
+3) What is npm?
+ Ans:- Nodes pacakage managers
+      Npm is known as online repository for publishing node.js projects.
+      NPM is a command line utility for installing and interacting with packages and module.
+      NPM is also used to manage packages.
+      NPM makes it easy for developers to update, share and reuse code.
+      . To check the current version of npm command line is : npm --v.
+      . To install current version of npm command line is : npm install npm@latest -g
