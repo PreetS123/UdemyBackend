@@ -1,0 +1,9 @@
+ 1.) What is ExpressJS ?
+ Ans-->Express.js is a node.js framework that is used to develop web and mobile application.
+      Provides a set of robust features.
+      Fast , minimal and flexible.
+
+ 2.) What is a framework ?
+ Ans--> It is an environment with a set of tools to be creative 
+ Tools includes libraries etc.
+ 
