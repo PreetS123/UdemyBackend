@@ -93,3 +93,17 @@ eventEmitter.on() function allows one or more functions to be attached
 
   11)Gulp: Gulp is a toolkit for automating repetitive and time consuming tasks.
   
+
+  Difference between RDMS vs MongoDB.
+
+  RDBMS-->1) In a RDBMS we have tables
+          2) In RDBMS tables have column
+          3)Value
+          4)It is in form of record or row.
+  
+  MongoDB-->1)In MongoDB we have collections
+            2)In MongoDB collection have key
+            3)Value
+            4)It is in form of Document or Object.
+
+
