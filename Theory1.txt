@@ -100,10 +100,12 @@ eventEmitter.on() function allows one or more functions to be attached
           2) In RDBMS tables have column
           3)Value
           4)It is in form of record or row.
+          5) Predefined Schema
   
   MongoDB-->1)In MongoDB we have collections
             2)In MongoDB collection have key
             3)Value
             4)It is in form of Document or Object.
+            5) Schemas are flexible.
 
 
