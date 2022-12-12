@@ -7,3 +7,13 @@
  Ans--> It is an environment with a set of tools to be creative 
  Tools includes libraries etc.
  
+
+ 3.) What is Package.json file
+  Ans--> Usually included with all npm packages.
+         Contains metadata about our app, module,package.
+         Stores a list of package dependencies you have in your project.
+         Manifest about application,modules,etc.
+
+         Command line to create package.json file: npm init -y.
+
+
