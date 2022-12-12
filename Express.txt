@@ -16,4 +16,12 @@
 
          Command line to create package.json file: npm init -y.
 
+ 4.) What is Routing ?
+    It is a process on how an application responds to a client request.
+    Routing determines which URL or path.
+    It determines which specific HTTP request method(GET,POST,etc.)
+    Each route can have one or more handler functions which are executed 
+    when the route is matched.
+
+ 
 
