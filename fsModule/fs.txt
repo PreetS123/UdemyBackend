@@ -1,0 +1,9 @@
+Node fs module
+
+The FS(file System Library) Module.
+ Node ship with the fs module which allows interaction with the file system.
+
+
+ The fs module can be used to:
+  . List files and directories.
+  . Create files and directories.
