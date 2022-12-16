@@ -9,3 +9,10 @@ fs.readdir('c:/',function(err,data){
     console.log(data);
 });
 
+fs.writeFile('fsfile.txt','working with fs.write file',function(err,data){
+    if(err){
+        console.log('error occured',er);
+    }else{
+        console.log('message saved!');
+    }
+})
