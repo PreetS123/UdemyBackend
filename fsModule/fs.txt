@@ -7,3 +7,20 @@ The FS(file System Library) Module.
  The fs module can be used to:
   . List files and directories.
   . Create files and directories.
+  . Streams files
+  . Write files.
+  . Read files.
+  . Modify permissions.
+  . Do other stuff relating to the file system.
+  . To use the fs module or library you have to require access to it.
+
+
+  Node fs module Expmle Syntax
+
+  let fs= require('fs');
+  fs.readFile('/filename',function(err,data){
+    console.log(data);
+  })
+
+
+  
