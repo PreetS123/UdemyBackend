@@ -1,0 +1,10 @@
+What are streams ?
+
+Streams lets us read data from a source and pipe it to a destination.
+It is an EventEmitter.
+Streams can be readable or writable depending on implementation method.
+
+readable streams lets us read data from a source.
+Writable streams lets us write data to a destination.
+
+
