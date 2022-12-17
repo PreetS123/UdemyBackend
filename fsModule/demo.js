@@ -9,7 +9,7 @@ fs.readdir('c:/',function(err,data){
     console.log(data);
 });
 
-fs.writeFile('fsfile.txt','working with fs.write file',function(err,data){
+fs.writeFile('fsfile.txt','working with fs.write asynchronously',function(err,data){
     if(err){
         console.log('error occured',er);
     }else{
