@@ -24,3 +24,13 @@ fs.appendFile('fsfile.txt','working with append-file asynchronously with the hel
     console.log('message appended');
 })
 
+
+fs.mkdir('test',function(err){
+    if(err){
+        return console.log(err);
+    }
+    else{
+       return console.log('created new directory');
+    }
+})
+
