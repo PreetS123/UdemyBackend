@@ -25,12 +25,19 @@ fs.appendFile('fsfile.txt','working with append-file asynchronously with the hel
 })
 
 
-fs.mkdir('test',function(err){
+// fs.mkdir('test',function(err){
+//     if(err){
+//         return console.log(err);
+//     }
+//     else{
+//        return console.log('created new directory');
+//     }
+// })
+
+fs.rename('test','test_rename',function(err){
     if(err){
         return console.log(err);
     }
-    else{
-       return console.log('created new directory');
-    }
+    console.log('new directory has been renamed');
 })
 
