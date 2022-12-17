@@ -34,10 +34,17 @@ fs.appendFile('fsfile.txt','working with append-file asynchronously with the hel
 //     }
 // })
 
-fs.rename('test','test_rename',function(err){
-    if(err){
-        return console.log(err);
-    }
-    console.log('new directory has been renamed');
-})
+// fs.rename('test','test_rename',function(err){
+//     if(err){
+//         return console.log(err);
+//     }
+//     console.log('new directory has been renamed');
+// })
+
+
+ 
+
+
+
+  
 
