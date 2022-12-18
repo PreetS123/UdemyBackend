@@ -1,0 +1,11 @@
+What is API ?
+API stand for Application Programming Interface.
+API allows two application to talk to each other.
+
+Example :
+Social APIs
+Facebook,Twitter , Google Talk, Foursquare , SoundCloud.
+
+Visual APIs 
+google Maps, YouTube AccuWeather, Pinterest , Filckr.
+
