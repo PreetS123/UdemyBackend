@@ -9,3 +9,7 @@ Facebook,Twitter , Google Talk, Foursquare , SoundCloud.
 Visual APIs 
 google Maps, YouTube AccuWeather, Pinterest , Filckr.
 
+What is package.json ?
+Package.json file holds various metadata relevant to the project. 
+It is used to give information to npm that allows it to identify 
+the project as well as handle the project dependencies.
