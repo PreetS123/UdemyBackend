@@ -32,5 +32,7 @@ app.get('/',(req,res)=>{
     res.send('WELCOME TO THE WORLD OF BACKEND')
 })
 
-
+app.get('/api/fruits',(req,res)=>{
+    res.send(fruits);
+})
 
