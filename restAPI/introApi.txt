@@ -13,3 +13,10 @@ What is package.json ?
 Package.json file holds various metadata relevant to the project. 
 It is used to give information to npm that allows it to identify 
 the project as well as handle the project dependencies.
+
+
+What is Express .js ?
+Express is a web framework built with Node.js
+Express is a flexible and provides robust features for web and mobile application development.
+
+A framework guides us on how to do something (like a predefined way of doing things)
