@@ -37,11 +37,11 @@ app.get('/api/fruits',(req,res)=>{
 })
 
 app.get('/api/fruits/:id',(req,res)=>{
-    const fruits= fruits.find(c=>c.id===parseInt(req.params.id));
-    if(!fruits){
+    const fruit= fruits.find(c=>c.id===parseInt(req.params.id));
+    if(!fruit){
         res.status(404).send('fruit not found');
     }else{
-        res.status(200).send(fruits);
+        res.status(200).send(fruit);
     }
 })
 

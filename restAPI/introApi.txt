@@ -36,3 +36,18 @@ JavaScript arrays are used to store multiple values in a single variable.
 objects in js: 
 JavaScript objects are contained for name and value pairs separated by a colon.
 
+
+What is Nodemon
+Nodemon is a utility that moitors for any changes i our application source code 
+and automatically restarts our server.
+
+Features:
+ . Automatic restarting of application.
+ . Detects default file extension to monitors
+ . Default supports for node and coffeeScript
+ . Can run execute like Python etc.
+ . Watch specific directories.
+
+ Command to installing Nodemon
+    npm i -g nodemon.
+    
