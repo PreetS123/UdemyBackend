@@ -20,3 +20,9 @@ Express is a web framework built with Node.js
 Express is a flexible and provides robust features for web and mobile application development.
 
 A framework guides us on how to do something (like a predefined way of doing things)
+
+
+What is JOI ?
+JOI is a schema description language and data validator for javaScript.
+Can be used to validate response from a backend endpoint or maybe 
+verifying what goes into our REST API.
