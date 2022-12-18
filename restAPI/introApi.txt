@@ -50,4 +50,28 @@ Features:
 
  Command to installing Nodemon
     npm i -g nodemon.
+
+
+
+    What is HTTP ?
+    It stands for hypertext transfer protocol.
+    Web pages are made of html documents.
+    
+    Protocol refers to a specific set of communication rules.
+
+    Http allows the fetching of resources such as over the internet and web.
+    http is the foundation of any data exchange on the web.
+    http is a request-response client- server protocol.
+    Http is a stateless protocol 
+
+
+    HTTP Status Codes
+    These are message that get returned fowwing request to the server.
+    200-ok--> Standard message for a successful HTTP request.
+    201-(created)--> Request fulfilled and new resource created.
+    400-(bad request)-404---> Invalid Syntax | Request cannot be fulfilled.
+    403-(Method not allowed)---> Server refusing to respond to request.
+    405-(Method not allowed)---> Request method not supported.
+    500-(Internal Server error)---> Server unable to fulfill request due to issues.
+    503-(Service Unavailable)---> Server is under maintainance.
     
