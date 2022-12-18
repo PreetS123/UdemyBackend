@@ -29,4 +29,10 @@ verifying what goes into our REST API.
 
 
 What is array of objects?
+
+arrays in js:
 JavaScript arrays are used to store multiple values in a single variable.
+
+objects in js: 
+JavaScript objects are contained for name and value pairs separated by a colon.
+
