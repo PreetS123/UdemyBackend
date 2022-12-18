@@ -26,3 +26,7 @@ What is JOI ?
 JOI is a schema description language and data validator for javaScript.
 Can be used to validate response from a backend endpoint or maybe 
 verifying what goes into our REST API.
+
+
+What is array of objects?
+JavaScript arrays are used to store multiple values in a single variable.
