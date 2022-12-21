@@ -132,5 +132,7 @@ What is socket.io
  Runs on Amazon , Google and Microsoft Azure.
  Powers of half a million deployments world-wide.
  
+What is mongoose?
+MongoDB is an object modeling for node.js.
 
 
