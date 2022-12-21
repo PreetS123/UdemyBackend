@@ -109,3 +109,28 @@ eventEmitter.on() function allows one or more functions to be attached
             5) Schemas are flexible.
 
 
+
+What is socket.io
+ It enables real-time, bidirectional , event based communication.
+ Socket.io has two parts : client side library (browser) and server side library(node.js)
+ Both components have an API that is almost identical and event driven.
+ 
+
+ What is MongoDB ?
+
+ MongoDB is a distributed - document database.
+ MongoDB stores data in flexible , JSON- like documents.
+ The document model maps to the objects in your application code.
+ MongoDB is free and open source.
+ MongoDB is flexible and scalable with querying and indexing.
+
+
+
+ What is mLab ?
+ mLab is a free mongoDB hosting service.
+ mLab is cloud based database service.
+ Runs on Amazon , Google and Microsoft Azure.
+ Powers of half a million deployments world-wide.
+ 
+
+
