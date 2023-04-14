@@ -3,6 +3,7 @@ require("dotenv").config();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("./model/User.model");
+const isAuth= require("./middleware/auth");
 
 const app = express();
 app.use(express.json());
@@ -71,5 +72,10 @@ app.post("/login", async (req, res) => {
     console.log(error);
   }
 });
+
+
+app.get('/dashboard',isAuth,(req,res)=>{
+    res.send('Welcome to secret information')
+})
 
 module.exports = app;
