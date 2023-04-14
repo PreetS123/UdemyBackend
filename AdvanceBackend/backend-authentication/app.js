@@ -4,9 +4,11 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("./model/User.model");
 const isAuth= require("./middleware/auth");
+const cookieParser= require('cookie-parser');
 
 const app = express();
 app.use(express.json());
+app.use(cookieParser());
 
 app.get("/", (req, res) => {
   res.send("Hello I am learning from Udemy Hitesh Choudhary course");
@@ -65,7 +67,18 @@ app.post("/login", async (req, res) => {
       );
       user.token = token;
       user.password = undefined;
-      res.status(200).json(user);
+      // res.status(200).json(user);
+
+     //if you want to use cookies to store the token
+    const options = {
+      expires: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000),
+      httpOnly:true,//only backend can read it 
+    };
+    res.status(200).cookie('token',token,options).json({
+      success:true,
+      token,
+      user
+  })
     }
     res.send(400).send("email or password is incorrect");
   } catch (error) {
